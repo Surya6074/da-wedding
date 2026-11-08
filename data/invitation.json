@@ -1,0 +1,145 @@
+{
+  "invitation_type": "Wedding Invitation",
+  "invocation": "We request the honour of your presence & blessings on the auspicious occasion of the wedding ceremony of",
+  "groom": {
+    "name": "M. Deivendran",
+    "qualifications": "B.E., PGDBM",
+    "parents": {
+      "father": "Mr. P. Murugesan",
+      "mother": "Mrs. M. Gomathi"
+    },
+    "relation": "S/o",
+    "photo": "./images/groom.jpg",
+    "about": "Blessed with love, family, and timeless tradition as we embark on this sacred journey together."
+  },
+  "bride": {
+    "name": "P. Akshaya",
+    "qualifications": "BNYS",
+    "parents": {
+      "father": "Mr. B. Parthiban",
+      "mother": "Mrs. P. Krishnaveni"
+    },
+    "relation": "D/o",
+    "photo": "./images/bride.jpg",
+    "about": "Stepping into this new chapter with devotion, joy, and the cherished blessings of elders and loved ones."
+  },
+  "invitation_message": "Together with our parents invite you to share in the celebration of our marriage",
+  "save_the_date": {
+    "day": "Sunday",
+    "date": "22nd November 2026",
+    "time": {
+      "from": "7:30 am",
+      "to": "9:00 am"
+    }
+  },
+  "venue": {
+    "name": "Arulmigu Kuzhandhai Velappar Thirukkovil",
+    "location": "Poombarai",
+    "full_address": "Arulmigu Kuzhandhai Velappar Thirukkovil, Poombarai, Kodaikanal Taluk, Dindigul District, Tamil Nadu 624103",
+    "landmark": "Near Poombarai Village Viewpoint & Terrace Valley",
+    "map_query": "Arulmigu Kuzhandhai Velappar Thirukkovil, Poombarai, Tamil Nadu",
+    "google_maps_url": "https://maps.google.com/?q=Arulmigu+Kuzhandhai+Velappar+Thirukkovil,+Poombarai,+Tamil+Nadu",
+    "embed_map_url": "https://maps.google.com/maps?q=Arulmigu+Kuzhandhai+Velappar+Thirukkovil,+Poombarai,+Tamil+Nadu&t=&z=14&ie=UTF8&iwloc=&output=embed"
+  },
+  "compliments_from": "Friends & Relatives",
+  "iso_datetime": "2026-11-22T07:30:00+05:30",
+  "iso_end_datetime": "2026-11-22T09:00:00+05:30",
+  "music": {
+    "youtube_id": "zzpXEsxxjjo",
+    "title": "Auspicious Wedding Music",
+    "fallback_audio": "./audio/bg-music.mp3"
+  },
+  "events": [
+    {
+      "id": "muhurtham",
+      "title": "Auspicious Muhurtham",
+      "sub_title": "The Sacred Holy Matrimony (Thirumangalyam)",
+      "date": "Sunday, 22nd November 2026",
+      "time": "7:30 am - 9:00 am IST",
+      "venue": "Arulmigu Kuzhandhai Velappar Thirukkovil",
+      "location": "Poombarai, Kodaikanal, Tamil Nadu",
+      "description": "Witness the divine union amidst sacred Vedic chants, nadaswaram mangala isai, and the auspicious tying of the Thirumangalyam.",
+      "icon": "HeartHandshake",
+      "dress_code": "Traditional Silk (Pattu Veshti & Kanjeevaram Saree)"
+    },
+    {
+      "id": "virundhu",
+      "title": "Kalyana Virundhu",
+      "sub_title": "Grand Traditional Wedding Feast",
+      "date": "Sunday, 22nd November 2026",
+      "time": "11:30 am onwards",
+      "venue": "Thirukkovil Annadhana Mandapam",
+      "location": "Poombarai, Kodaikanal",
+      "description": "Indulge in an authentic South Indian traditional banana leaf feast served with love, auspicious flavors, and warmth.",
+      "icon": "UtensilsCrossed",
+      "dress_code": "Traditional / Festive Wear"
+    },
+    {
+      "id": "reception",
+      "title": "Wedding Reception",
+      "sub_title": "Evening Celebrations & Blessings",
+      "date": "Sunday, 22nd November 2026",
+      "time": "6:00 pm onwards",
+      "venue": "Sri Murugan Kalyana Mandapam",
+      "location": "Poombarai Main Road, Kodaikanal",
+      "description": "An enchanting evening of music, joyful moments, warm dinner, and bestowing blessings upon the newly married couple.",
+      "icon": "Sparkles",
+      "dress_code": "Festive Ethnic / Indo-Western"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "src": "./images/gallery-1.jpg",
+      "caption": "The Beginning of Forever",
+      "alt": "Deivendran & Akshaya candid portrait"
+    },
+    {
+      "id": 2,
+      "src": "./images/gallery-2.jpg",
+      "caption": "Divine Blessings",
+      "alt": "Sacred temple architecture and traditional blessings"
+    },
+    {
+      "id": 3,
+      "src": "./images/gallery-3.jpg",
+      "caption": "Soulful Smiles",
+      "alt": "Sharing joy and happy moments"
+    },
+    {
+      "id": 4,
+      "src": "./images/gallery-4.jpg",
+      "caption": "Silk & Gold Elegance",
+      "alt": "Traditional bridal accessories and gold jewelry"
+    },
+    {
+      "id": 5,
+      "src": "./images/gallery-5.jpg",
+      "caption": "Misty Hills of Poombarai",
+      "alt": "Scenic terrace valley and mist-clad hills"
+    },
+    {
+      "id": 6,
+      "src": "./images/gallery-6.jpg",
+      "caption": "Two Hearts, One Journey",
+      "alt": "Holding hands together with love"
+    },
+    {
+      "id": 7,
+      "src": "./images/gallery-7.jpg",
+      "caption": "Fragrance of Jasmine",
+      "alt": "Traditional fresh jasmine and marigold garlands"
+    },
+    {
+      "id": 8,
+      "src": "./images/gallery-8.jpg",
+      "caption": "Step into Eternity",
+      "alt": "Walking forward together towards their bright future"
+    }
+  ],
+  "social_share": {
+    "title": "Deivendran & Akshaya Wedding Invitation",
+    "text": "We cordially invite you with family to celebrate the wedding ceremony of M. Deivendran & P. Akshaya on Sunday, 22nd November 2026 at Arulmigu Kuzhandhai Velappar Thirukkovil, Poombarai.",
+    "hashtags": "DeivendranWedsAkshaya,TamilWedding,PoombaraiWedding"
+  }
+}

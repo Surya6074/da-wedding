@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <linearGradient id="kGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0BE" />
+      <stop offset="50%" stop-color="#C9A227" />
+      <stop offset="100%" stop-color="#9E7B16" />
+    </linearGradient>
+  </defs>
+  <g fill="url(#kGold)" stroke="#FFF8E7" stroke-width="1.5">
+    <!-- Coconut top -->
+    <path d="M 100 20 C 130 50 140 85 100 100 C 60 85 70 50 100 20 Z" fill="#9E7B16"/>
+    <!-- Mango leaves -->
+    <path d="M 100 80 C 140 60 170 70 170 95 C 140 105 110 95 100 80 Z" />
+    <path d="M 100 80 C 60 60 30 70 30 95 C 60 105 90 95 100 80 Z" />
+    <!-- Pot Body -->
+    <ellipse cx="100" cy="98" rx="35" ry="8" />
+    <path d="M 70 100 C 30 130 30 190 75 210 L 125 210 C 170 190 170 130 130 100 Z" />
+    <ellipse cx="100" cy="210" rx="30" ry="8" />
+  </g>
+</svg>

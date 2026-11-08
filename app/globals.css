@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-wedding-magenta: #B0125B;
+  --color-wedding-maroon: #4A0E2E;
+  --color-wedding-ivory: #FFF8E7;
+  --color-wedding-champagne: #E8D9A0;
+  --color-wedding-gold: #C9A227;
+  --color-wedding-gold-light: #F6EBB8;
+  --color-wedding-gold-dark: #9E7B16;
+  --color-wedding-rose-light: #FCE7F3;
+  --color-wedding-deep-wine: #2D051B;
+  --font-script: "Great Vibes", cursive;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+}
+
+:root {
+  --bg-primary: #FFF8E7;
+  --text-primary: #4A0E2E;
+  --accent-gold: #C9A227;
+  --accent-magenta: #B0125B;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FFF8E7;
+  color: #4A0E2E;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  background-color: #FFF8E7;
+  color: #4A0E2E;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  background: rgba(255, 248, 231, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 162, 39, 0.35);
+  box-shadow: 0 10px 30px -5px rgba(74, 14, 46, 0.08), 0 0 15px rgba(201, 162, 39, 0.15);
+}
+
+.glass-card-dark {
+  background: rgba(45, 5, 27, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(232, 217, 160, 0.3);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3), 0 0 20px rgba(201, 162, 39, 0.2);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A8841B 0%, #D4AF37 35%, #FBF3C7 50%, #D4AF37 65%, #926E0F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.magenta-gradient-text {
+  background: linear-gradient(135deg, #B0125B 0%, #700938 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 1px solid rgba(201, 162, 39, 0.4);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(201, 162, 39, 0.6);
+  box-shadow: 0 0 15px rgba(201, 162, 39, 0.25);
+}
+
+/* Traditional Kolam / Mandapam background pattern */
+.kolam-pattern {
+  background-color: #FFF8E7;
+  background-image: radial-gradient(rgba(201, 162, 39, 0.15) 1px, transparent 1px),
+    radial-gradient(rgba(176, 18, 91, 0.08) 1px, #FFF8E7 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.temple-sky-gradient {
+  background: linear-gradient(180deg, #2D051B 0%, #4A0E2E 35%, #B0125B 70%, #FFF8E7 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF8E7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9A227;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B0125B;
+}
+
+/* Lightbox custom overrides */
+.yarl__portal {
+  backdrop-filter: blur(8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
