@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://surya6074.github.io/da-wedding"),
+  metadataBase: new URL("https://surya6074.github.io"),
   title: "Deivendran weds Akshaya, 22 Nov 2026",
   description: `We cordially invite you with family to celebrate the auspicious wedding ceremony of ${invitationData.groom.name} & ${invitationData.bride.name} on Sunday, 22nd November 2026 at Arulmigu Kuzhandhai Velappar Thirukkovil, Poombarai.`,
   keywords: [
@@ -28,14 +28,26 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deivendran weds Akshaya, 22 Nov 2026",
     description: `Join us in celebrating the holy matrimony of ${invitationData.groom.name} & ${invitationData.bride.name} on Sunday, 22nd November 2026 at Poombarai.`,
-    type: "website",
-    locale: "en_IN",
+    url: "https://surya6074.github.io/da-wedding/",
     siteName: "Deivendran & Akshaya Wedding Invitation",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "https://surya6074.github.io/da-wedding/images/og-image.png",
+        secureUrl: "https://surya6074.github.io/da-wedding/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Deivendran & Akshaya Wedding Invitation - 22 Nov 2026",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Deivendran weds Akshaya, 22 Nov 2026",
     description: "Wedding digital invitation for M. Deivendran & P. Akshaya.",
+    images: ["https://surya6074.github.io/da-wedding/images/og-image.png"],
   },
   icons: {
     icon: "./favicon.ico",
